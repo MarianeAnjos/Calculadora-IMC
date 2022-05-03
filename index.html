@@ -10,5 +10,11 @@
     pulaLinha();
   }
 
-  var pesoPessoa = 
+  function calculaImc(altura,peso){
+    var imc = peso / (altura * altura);
+    mostra("O imc calculado é " + imc);
+  }
+  calculaImc(1.71, 73);
+  calculaImc(1.65, 69);
+  
 </script>
